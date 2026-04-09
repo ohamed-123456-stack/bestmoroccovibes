@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Droid+Sans&amp);		
+
+#left {
+	margin-left:0px;	
+}
+
+.contact h2 {
+	text-transform:none;
+	text-decoration:none; 
+	text-shadow: -1px  1px 0px #efefef;	
+	color: #d35b0b;
+	margin-top:10px;
+	margin-left:10px;	
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   font-family: Oswald, 'Arial Unicode MS', Helvetica, Sans-Serif;	
+}
+
+.contact .div {
+	text-shadow: -1px  1px 0px #efefef;	
+	margin-left:35px;		
+   text-decoration: none;
+   color:#d35b0b;
+   font-size: 16px;
+   font-family: Oswald, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;	
+}
+
+.contact ul {
+	list-style: none;
+	margin-top:20px;	
+	margin-left:180px;	
+}
+
+.contact ul li p {
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+   position: absolute;   
+   font-size: 14px;
+	text-shadow: -1px  1px 0px #efefef;	
+	color: #d35b0b;
+   font-weight: blod;
+   font-style: normal;
+   font-family: Oswald, 'Arial Unicode MS', Helvetica, Sans-Serif;	
+   background: url('images/tours.png') 10px 8px no-repeat scroll;
+   padding:3px;
+   padding-left:20px;
+   padding-right:10px;   
+   text-align: right;
+   z-index: 1;
+	margin-left:-130px;
+	margin-top:5px;   
+}
+.contact b {
+	color:#000000;
+   font-weight: normal;
+   font-style: normal;
+   font-family: Oswald, 'Arial Unicode MS', Helvetica, Sans-Serif;		
+}
+
+input {
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) inset, 0px 0px 1px 0px rgba(255, 255, 255, 0.5);	
+  -webkit-appearance: none;
+	background: #dddddd;
+    border: 0px solid #dcdcdc;
+    color: #404040;
+	padding: 6px 0px;
+	padding-left:5px;
+	margin:5px;
+	font-family: Arial, Helvetica, Sans-Serif;
+    font-weight: bold;		
+	font-size: 11pt;
+	cursor: auto;
+	-webkit-transition: all 0.3s linear; 
+	-moz-transition: all 0.3s linear; 
+	-o-transition: all 0.3s linear; 
+	-ms-transition: all 0.3s linear; 
+	transition: all 0.3s linear;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+		
+}
+
+input:hover {
+    border: 0px solid #eeeeee;
+   background: #eeeeee;
+	-webkit-transition: all 0.3s linear; 
+	-moz-transition: all 0.3s linear; 
+	-o-transition: all 0.3s linear; 
+	-ms-transition: all 0.3s linear; 
+	transition: all 0.3s linear; 	
+}
+
+textarea {
+	background: #dddddd;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) inset, 0px 0px 1px 0px rgba(255, 255, 255, 0.5);	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+   width:650px;
+   height: 150px;
+    border: 0px solid #ffffff;
+	margin-top:5px;
+	margin-left:5px;
+	padding-left: 8px;
+	padding-top: 8px;	
+    color: #262626;
+	font-family: Arial, Helvetica, Sans-Serif;
+    font-weight: bold;	
+	font-size: 11pt;
+	text-shadow: 0 1px -1px rgba(0,0,0,0.25);
+	cursor: auto;
+	-webkit-transition: all 0.3s linear; 
+	-moz-transition: all 0.3s linear; 
+	-o-transition: all 0.3s linear; 
+	-ms-transition: all 0.3s linear; 
+	transition: all 0.3s linear; 		
+}
+
+textarea:hover {
+    border: 0px solid #eeeeee;
+   background: #eeeeee;
+	-webkit-transition: all 0.3s linear; 
+	-moz-transition: all 0.3s linear; 
+	-o-transition: all 0.3s linear; 
+	-ms-transition: all 0.3s linear; 
+	transition: all 0.3s linear; 	
+}
+
+.button {
+	margin-left:55%;
+}
+
+.button input {
+	margin-top:10px;
+	font-family: Arial, Helvetica, Sans-Serif;
+    font-weight: bold;	
+	font-size: 11pt;
+	color: #ffffff;
+	padding: 8px 35px;	
+	text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	cursor: pointer;
+    border: 0px solid #F89543;	
+    -webkit-box-shadow:0 6px 6px -6px #262626;
+    -moz-box-shadow:0 6px 6px -6px #262626;
+    box-shadow:0 6px 6px -6px #262626;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background: #d35b0b;	
+}
+
+.button input:hover {
+	text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	-webkit-transition: all 0.3s linear; 
+	-moz-transition: all 0.3s linear; 
+	-o-transition: all 0.3s linear; 
+	-ms-transition: all 0.3s linear; 
+	transition: all 0.3s linear; 	
+    color: #ffffff;
+    border: 0px solid #ffffff;
+	background: #d35b0b url('images/page.png') scroll;	
+	cursor: pointer;
+}
